@@ -110,6 +110,27 @@ const ramayanData = {
       arth: "जिनका शरीर कुंद (सफेद पुष्प) और चन्द्रमा के समान उज्ज्वल है, जो उमा (पार्वती) के पति हैं, जो करुणा के भंडार हैं, और जो दीन-दुखियों पर स्नेह रखते हैं—वे भगवान शिव, जो कामदेव का दमन (मदन-दहन) करने वाले हैं, मुझ पर कृपा करें।",
       english: "May Lord Shiva—whose body is fair like the jasmine flower and the moon, who is the consort of Uma (Parvati), the abode of compassion, and who shows love towards the humble—bestow His grace upon me and destroy my sufferings."
     },
+        {
+      id: 13,
+      type: "soratha",
+      text: [
+        "बंदउँ गुरु पद कंज कृपा सिंधु नररूप हरि | ",
+        "महामोह तम पुंज जासु बचन रबि कर निकर || ५ ||"
+      ],
+      arth: "मैं उन गुरु महाराज के चरण-कमलों की वंदना करता हूँ, जो कृपा के समुद्र हैं और मनुष्य रूप में स्वयं भगवान हरि ही हैं। जिनके वचन सूर्य की किरणों के समान हैं, जो महान मोह रूपी अंधकार के समूह का नाश कर देते हैं। ॥ ५ ॥",
+      english: "I bow to the lotus feet of the Guru, who is an ocean of compassion and is Lord Hari Himself in human form. His words are like the rays of the sun, which dispel the dense darkness of great delusion (ignorance)."
+    },
+
+        {
+      id: 14,
+      type: "chaupai",
+      text: [
+        "बंदउँ गुरु पद पदुम परागा | सुरुचि सुबास सरस अनुरागा || ",
+        "अमिय मूरिमय चूरन चारु | समन सकल भव रुज परिवारू || १ ||"
+      ],
+      arth: "मैं गुरु महाराज के चरण-कमलों की धूल (पराग) की वंदना करता हूँ, जो सुंदर रुचि (आकर्षण), सुगंध और मधुर प्रेम से परिपूर्ण है। वह अमृतमयी, मनोहर चूर्ण के समान है, जो संसार रूपी रोग और उसके समस्त कष्टों का नाश करने वाली है। ॥ १ ॥",
+      english: "I bow to the pollen-like dust of the Guru’s lotus feet, which is filled with refined beauty, divine fragrance, and sweet devotion. It is like a charming, nectar-like sacred powder that cures the entire family of ailments arising from worldly existence (the cycle of birth and death)."
+    },
 
     ]
   },
