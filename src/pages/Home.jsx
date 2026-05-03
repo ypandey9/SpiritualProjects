@@ -1,0 +1,34 @@
+import Navbar from "../components/Navbar";
+import KandCard from "../components/KandCard";
+
+export default function Home() {
+const kands = [
+  { name: "बाल काण्ड", key: "bal_kand" },
+  { name: "अयोध्या काण्ड", key: "ayodhya_kand" },
+  { name: "अरण्य काण्ड", key: "aranya_kand" },
+  { name: "किष्किंधा काण्ड", key: "kishkindha_kand" },
+  { name: "सुंदर काण्ड", key: "sundar_kand" },
+  { name: "लंका काण्ड", key: "lanka_kand" },
+  { name: "उत्तर काण्ड", key: "uttar_kand" }
+];
+
+  return (
+    <>
+      <Navbar />
+
+      <div className="p-6">
+        
+        <h2 className="text-center text-2xl font-bold text-secondary mb-6">
+          काण्ड चयन करें
+        </h2>
+
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+          {kands.map((k, i) => (
+            <KandCard key={i} name={k.name} keyName={k.key} />
+          ))}
+        </div>
+
+      </div>
+    </>
+  );
+}
