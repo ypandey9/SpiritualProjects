@@ -132,6 +132,28 @@ const ramayanData = {
       english: "I bow to the pollen-like dust of the Guru’s lotus feet, which is filled with refined beauty, divine fragrance, and sweet devotion. It is like a charming, nectar-like sacred powder that cures the entire family of ailments arising from worldly existence (the cycle of birth and death)."
     },
 
+          {
+      id: 15,
+      type: "chaupai",
+      text: [
+        "सुकृति संभु तन बिमल विभूती | मंजुल मंगल मोद प्रसूती || ",
+        "जन मन मंजु मुकुर मल हरनी | किएँ तिलक गुन गन बस करनी || २ || "
+      ],
+      arth: "वह रज सुकृती (पुण्यवान पुरुष ) रूपी शिवजी के शरीर पर सुशोभित निर्मल विभूति है और सुन्दर कल्याण और आनन्द की जननी है , भक्त के मन रूपी सुन्दर दर्पण के मैल को दूर करनेवाली और तिलक करने से गुणों के समूह को वश में करने वाली है || २ ||",
+      english: "That dust is the pure sacred ash adorning the body of Lord Shiva—the embodiment of the virtuous. It is the source of auspiciousness and bliss; it cleanses the impurities from the mirror-like mind of the devotee and, when applied as a tilak, brings the multitude of virtues under one’s control."
+    },
+    
+          {
+      id: 16,
+      type: "chaupai",
+      text: [
+        "श्रीगुर पद नख मनि गन ज्योती | सुमिरत दिब्य दृष्टि हियँ होती || ",
+        "दलन मोह तम सो सप्रकासू | बड़े भाग उर आवइ जासू || ३ || "
+      ],
+      arth: "श्री गुरु के चरणों के नखों की मणियों के समान ज्योति का स्मरण करने से हृदय में दिव्य दृष्टि उत्पन्न होती है। वह प्रकाश मोह रूपी अंधकार का नाश कर देता है। यह प्रकाश जिसके हृदय में प्रवेश करता है, वह अत्यंत भाग्यशाली होता है। ॥ ३ ॥",
+      english: "By remembering the radiant, jewel-like light of the Guru’s toenails, divine vision arises in the heart. That light dispels the darkness of delusion, and the one in whose heart it dwells is greatly fortunate."
+    },
+
     ]
   },
 
