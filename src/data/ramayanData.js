@@ -147,13 +147,34 @@ const ramayanData = {
       id: 16,
       type: "chaupai",
       text: [
-        "श्रीगुर पद नख मनि गन ज्योती | सुमिरत दिब्य दृष्टि हियँ होती || ",
-        "दलन मोह तम सो सप्रकासू | बड़े भाग उर आवइ जासू || ३ || "
+        "श्रीगुर पद नख मनि गन जोती | सुमिरत दिब्य दृष्टि हियँ होती || ",
+        "दलन मोह तम सो सप्रकासू | बड़े भाग उर आवइ जासू || ३ || "
       ],
       arth: "श्री गुरु के चरणों के नखों की मणियों के समान ज्योति का स्मरण करने से हृदय में दिव्य दृष्टि उत्पन्न होती है। वह प्रकाश मोह रूपी अंधकार का नाश कर देता है। यह प्रकाश जिसके हृदय में प्रवेश करता है, वह अत्यंत भाग्यशाली होता है। ॥ ३ ॥",
       english: "By remembering the radiant, jewel-like light of the Guru’s toenails, divine vision arises in the heart. That light dispels the darkness of delusion, and the one in whose heart it dwells is greatly fortunate."
     },
 
+            {
+      id: 17,
+      type: "chaupai",
+      text: [
+        "उघरहिं बिमल बिलोचन ही के | मिटहिं दोष दुख भव रजनी के ||  ",
+        "सूझहिं राम चरित मनि मानिक | गुपुत प्रगट जहँ जो जेहि खानिक || ४ ||  "
+      ],
+      arth: "उस (गुरु-कृपा रूपी प्रकाश) से हृदय के निर्मल नेत्र खुल जाते हैं और संसार रूपी रात्रि के दोष तथा दुःख मिट जाते हैं। तब श्रीरामजी के चरित्र रूपी मणि-माणिक्य दिखाई देने लगते हैं, जो जहाँ और जिस खान (भंडार) में गुप्त या प्रकट रूप में स्थित हैं। ॥ ४ ॥",
+      english: "Through that divine light, the pure eyes of the heart are opened, and the faults and sorrows of the night of worldly existence are dispelled. Then the jewel-like gems of Lord Rama’s deeds become visible—whether hidden or manifest, wherever and in whichever mine they may be found."
+    },
+
+              {
+      id: 18,
+      type: "doha",
+      text: [
+        "जथा सुअंजन अंजि दृग साधक सिद्ध सुजान | ",
+        "कौतुक देखत सैल बन भूतल भूरि निधान || १ ||  "
+      ],
+      arth: "जिस प्रकार सिद्ध, बुद्धिमान और कुशल साधक आँखों में उत्तम अंजन (काजल) लगाकर पर्वतों, वनों और पृथ्वी के भीतर छिपे हुए बहुत-से खजानों को देख लेते हैं, उसी प्रकार (गुरु-कृपा से) दिव्य दृष्टि प्राप्त होने पर श्रीरामजी के चरित्रों का रहस्य दिखाई देने लगता है। ॥ १ ॥",
+      english: "Just as accomplished, wise, and skilled seekers, by applying a special sacred collyrium to their eyes, are able to perceive the many hidden treasures within mountains, forests, and the earth, similarly, through divine insight granted by the Guru’s grace, one begins to behold the profound treasures of Lord Rama’s sacred deeds."
+    },
     ]
   },
 
