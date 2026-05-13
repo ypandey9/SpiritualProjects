@@ -65,7 +65,7 @@ useEffect(() => {
           </p>
         ) : (
           currentVerses.map((item) => (
-            <VerseCard key={item.id} id={item.id} type={item.type} text={item.text} arth={item.arth} english={item.english} />
+            <VerseCard key={item.id} id={item.id} type={item.type} text={item.text} transliteration={item.transliteration} arth={item.arth} english={item.english} />
           ))
         )}
 

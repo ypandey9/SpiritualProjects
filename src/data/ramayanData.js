@@ -14,6 +14,11 @@ const ramayanData = {
         id: 1,
         type: "shlok",
         text: "वर्णानामर्थसंघानां रसानां छन्दसामपि । मङ्गलानां च कर्तारौ वन्दे वाणीविनायकौ॥ १ ॥ ",
+         transliteration: [
+    "Varnanam artha-sanghanam rasanam chhandasam api ।",
+    "Mangalanam cha kartarau vande Vani-Vinayakau॥ 1 ॥"
+  ],
+
         arth: "अक्षरों अर्थ समूहों रसों छन्दों और मङ्गलों को करनेवाली सरस्वती जी और गणेश जी की मै वंदना करता हूँ || १ || ",
         english: "I bow to Goddess Saraswati and Lord Ganesha, who bestow letters, meanings, groups of words, poetic sentiments (rasas), meters (chhandas), and auspiciousness. || 1 ||"
       },
@@ -21,6 +26,10 @@ const ramayanData = {
         id: 2,
         type: "shlok",
         text: "भवानीशङ्करौ वन्दे श्रद्धाविश्वासरूपिणौ | याभ्यां विना न पश्यन्ति सिद्धाः स्वान्तःस्थमीश्वरम   || २ || ",
+         transliteration: [
+    "Vande Bodhamayam Nityam Gurum Shankara Rupinam |"
+  ],
+
         arth: "श्रद्धा और विश्वास के स्वरुप श्री पार्वतीजी और श्रीशंकरजी  की मैं वंदना करता हूँ ,जिनके बिना सिद्धजन अपने अन्तःकरण में स्थित ईश्वर को नहीं देख सकते || २ ||",
         english : "I bow to Shri Parvati and Shri Shankar, who are the very embodiments of faith (shraddha) and trust (vishwas); without them, even the accomplished cannot perceive the God dwelling within their own hearts. || 2 ||"
       },
@@ -28,7 +37,10 @@ const ramayanData = {
         id: 3,
         type: "shlok",
         text: "वन्दे बोधमयं नित्यं गुरुं शंकररुपिणम | यमाश्रितो हि वक्रोापि चन्द्रः सर्वत्र वन्द्यते || ३ || ",
-        arth: "ज्ञानमय , नित्य , शंकररूपी गुरु की मैं वंदना करता हूँ , जिनके आश्रित होने से ही टेढ़ा चन्द्रमा भी सर्वत्र वन्दित होता है || ३ || ",
+        transliteration: [
+    "Vande Bodhamayam Nityam Gurum Shankara Rupinam |"
+  ],
+        arth: "ज्ञानमय , नित्य , शंकररूपी गुरु की मैं वंदना करता हूँ , जिनके आश्रित होने से ही टेढ़ा चन्द्रमा भी सर्वत्र वन्दित होता है || ३ || ",
         english : "I bow to the Guru, who is knowledge itself, eternal, and of the nature of Lord Shankar; by taking refuge in him, even the crooked moon becomes revered everywhere. || 3 ||"
       },
       {
@@ -175,6 +187,29 @@ const ramayanData = {
       arth: "जिस प्रकार सिद्ध, बुद्धिमान और कुशल साधक आँखों में उत्तम अंजन (काजल) लगाकर पर्वतों, वनों और पृथ्वी के भीतर छिपे हुए बहुत-से खजानों को देख लेते हैं, उसी प्रकार (गुरु-कृपा से) दिव्य दृष्टि प्राप्त होने पर श्रीरामजी के चरित्रों का रहस्य दिखाई देने लगता है। ॥ १ ॥",
       english: "Just as accomplished, wise, and skilled seekers, by applying a special sacred collyrium to their eyes, are able to perceive the many hidden treasures within mountains, forests, and the earth, similarly, through divine insight granted by the Guru’s grace, one begins to behold the profound treasures of Lord Rama’s sacred deeds."
     },
+
+                {
+      id: 19,
+      type: "chaupai",
+      text: [
+        "गुरु पद रज मृदु मंजुल अंजन | नयन अमिय दृग दोष बिभंजन || ",
+        "तेहिं करि बिमल बिबेक बिलोचन | बरनउँ राम चरित भव मोचन || १||"
+      ],
+      arth: "गुरु के चरणों की धूलि को मैं कोमल और सुंदर अंजन (काजल) मानता हूँ, जो नेत्रों के लिए अमृत के समान है और दृष्टि के समस्त दोषों का नाश करने वाली है। उसी अंजन को लगाकर मैं अपने विवेक रूपी नेत्रों को निर्मल बनाकर संसार बंधन से मुक्त करने वाले श्रीरामजी के चरित्रों का वर्णन करता हूँ। ॥ १ ॥",
+      english: "I regard the dust of the Guru’s feet as a soft and beautiful collyrium, nectar-like to the eyes and capable of removing all defects of vision. Applying that sacred ointment, I purify the eyes of discernment and narrate the deeds of Lord Rama, which liberate beings from the bondage of worldly existence."
+    },
+
+                 {
+      id: 20,
+      type: "chaupai",
+      text: [
+        "बंदउँ प्रथम महीसुर चरना | मोह जनित संसय सब हरना ||",
+        "सुजन समाज सकल गुन खानी | करउँ प्रनाम सप्रेम सुबानी || २|| "
+      ],
+      arth: "मैं सबसे पहले ब्राह्मणों (भूमि के देवताओं) के चरणों की वंदना करता हूँ, जो मोह से उत्पन्न सभी संदेहों का नाश करने वाले हैं। फिर मैं सज्जनों के समाज को प्रणाम करता हूँ, जो समस्त गुणों की खान हैं, और यह प्रणाम मैं प्रेमपूर्वक सुंदर वाणी से करता हूँ। ॥ २ ॥",
+      english: "First of all, I bow to the feet of the Brahmins (the divine beings upon earth), who remove all doubts born of delusion. Then I offer my loving salutations, in graceful words, to the assembly of noble souls, who are the treasure-house of all virtues."
+    },
+
     ]
   },
 
@@ -264,7 +299,65 @@ const ramayanData = {
       english: "Ever since Lord Raghunath accepted me, illusion (Maya) has never affected me."
     }
   ]
+},
+
+shree_mad_bhagvat_geeta: {
+  header: {
+    lines: [
+      "श्रीगणेशाय नमः",
+      "ॐ श्रीपरमात्मने नमः ",
+      "प्रथम अध्याय"
+    ]
+  },
+
+  verses: [
+    {
+      id: 1,
+      type: "shlok",
+      text: [
+        "Dhrirastra uvacha",
+        "सोइ सुख लवलेस जिन्ह बारक सपनेहुँ लहेउ |",
+        "ते नहि गनहि खगेस ब्रम्हसुखहि सज्जन सुमति || ८८ (ख) ||"
+      ],
+      arth: "उस सुख का लवलेशमात्र जिन्होंने एक बार स्वप्न में भी प्राप्त कर लिया, हे पक्षिराज! वे सुन्दर बुद्धि वाले सज्जन पुरुष उसके सामने ब्रह्मसुख को भी कुछ नहीं गिनते।",
+      english: "Even a trace of that bliss, if once experienced—even in a dream—makes the wise disregard even the bliss of Brahman, O king of birds."
+    },
+
+    {
+      id: 2,
+      type: "chaupai",
+      text: [
+        "मैं पुनि अवध रहेउँ कछु काला |",
+        "देखेउँ बाल विनोद रसाला ||"
+      ],
+      arth: "मैं और कुछ समय तक अवधपुरी में रहा और मैंने श्रीराम जी की रसीली बाललीलाएँ देखीं।",
+      english: "I stayed in Ayodhya for some more time and witnessed the delightful childhood pastimes of Lord Rama."
+    },
+
+    {
+      id: 3,
+      type: "chaupai",
+      text: [
+        "राम प्रसाद भगति बर पायउँ |",
+        "प्रभु पद बंदि निजाश्रम आयउँ ||"
+      ],
+      arth: "श्रीराम की कृपा से मैंने भक्ति का वरदान पाया। तत्पश्चात प्रभु के चरणों की वंदना करके मैं अपने आश्रम लौट आया।",
+      english: "By Lord Rama’s grace, I attained the boon of devotion. Then, bowing at His feet, I returned to my hermitage."
+    },
+
+    {
+      id: 4,
+      type: "chaupai",
+      text: [
+        "तब ते मोहि न व्यापी माया |",
+        "जब ते रघुनायक अपनाया ||"
+      ],
+      arth: "जब से श्री रघुनाथ जी ने मुझे अपनाया, तब से माया मुझे कभी प्रभावित नहीं कर सकी।",
+      english: "Ever since Lord Raghunath accepted me, illusion (Maya) has never affected me."
+    }
+  ]
 }
+
 };
 
 export default ramayanData;

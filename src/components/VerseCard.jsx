@@ -1,3 +1,8 @@
+import { useParams } from "react-router-dom";
+import { useState } from "react";
+
+import {isBookmarked, toggleBookmark} from "../utils/bookmarkUtils";
+
 const TYPE_LABELS = {
   doha: "दोहा",
   chaupai: "चौपाई",
@@ -6,11 +11,41 @@ const TYPE_LABELS = {
   soratha: "सोरठा"
 };
 
-export default function VerseCard({ id, type, text, arth, english }) {
+export default function VerseCard({ id, type, text, transliteration, arth, english }) {
+
+  const { name } = useParams();
+
+  const [bookmarked, setBookmarked] = useState(isBookmarked(name,id));
+  const [showTransliteration, setShowTransliteration] = useState(false);
+
+  const handleBookmark = () => {  
+    toggleBookmark(name,id);
+
+    setBookmarked(isBookmarked(name,id));
+  };
+
+
+
   const lines = Array.isArray(text) ? text : [text];
 
   return (
+
     <div className="bg-white p-6 rounded-2xl shadow-md mb-6 border border-orange-100">
+
+      <div className="flex justify-end mb-2">
+
+        <button
+  onClick={(e) => {
+    e.stopPropagation();
+    handleBookmark();
+  }}
+  className="text-xl"
+>
+  {bookmarked ? "🔖" : "📑"}
+</button>
+
+      </div>
+
 
       <h3 className="text-sm text-orange-500 font-semibold mb-2">
         {TYPE_LABELS[type]} {id}
@@ -22,6 +57,44 @@ export default function VerseCard({ id, type, text, arth, english }) {
         ))}
       </div>
 
+      <div className="flex justify-center mb-4">
+
+  {showTransliteration && transliteration && (
+  <div className="mb-4 text-center">
+  
+    {transliteration.map((line, index) => (
+      <p
+        key={index}
+        className="
+          italic text-gray-600
+          leading-relaxed
+        "
+      >
+        {line}
+      </p>
+    ))}
+
+  </div>
+)}
+
+</div>
+
+<div className="flex justify-center mb-4">
+<button
+    onClick={() =>
+      setShowTransliteration(!showTransliteration)
+    }
+    className="
+      text-sm px-3 py-1 rounded-full
+      bg-orange-100 text-orange-700
+      hover:bg-orange-200 transition
+    "
+  >
+    {showTransliteration
+      ? "Hide Transliteration"
+      : "Show Transliteration"}
+  </button>
+</div>
       <div className="my-4 border-t"></div>
 
       <p className="text-gray-700 leading-relaxed text-justify">

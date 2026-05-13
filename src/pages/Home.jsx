@@ -9,7 +9,8 @@ const kands = [
   { name: "किष्किंधा काण्ड", key: "kishkindha_kand" },
   { name: "सुंदर काण्ड", key: "sundar_kand" },
   { name: "लंका काण्ड", key: "lanka_kand" },
-  { name: "उत्तर काण्ड", key: "uttar_kand" }
+  { name: "उत्तर काण्ड", key: "uttar_kand" },
+  { name: "श्रीमद्भगवद्गीता", key: "shree_mad_bhagvat_geeta" }
 ];
 
   return (
