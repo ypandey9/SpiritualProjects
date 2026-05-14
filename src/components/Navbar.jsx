@@ -3,7 +3,7 @@ export default function Navbar() {
   return (
     <div className="bg-primary text-white p-4 shadow-md flex justify-center">
       <h1 className="text-2xl font-bold tracking-wide">
-        📜 श्री रामचरितमानस
+        📜 श्रीरामचरितमानस
       </h1>
 
       <div className="flex gap-10 ml-10">

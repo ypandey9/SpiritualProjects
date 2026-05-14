@@ -4,7 +4,7 @@ const ramayanData = {
       lines: [
         "श्रीगणेशाय नमः",
         "श्रीजानकीवल्लभो विजयते",
-        "श्री रामचरितमानस",
+        "श्रीरामचरितमानस",
         "प्रथम सोपान"
       ]
     },
@@ -209,7 +209,35 @@ const ramayanData = {
       arth: "मैं सबसे पहले ब्राह्मणों (भूमि के देवताओं) के चरणों की वंदना करता हूँ, जो मोह से उत्पन्न सभी संदेहों का नाश करने वाले हैं। फिर मैं सज्जनों के समाज को प्रणाम करता हूँ, जो समस्त गुणों की खान हैं, और यह प्रणाम मैं प्रेमपूर्वक सुंदर वाणी से करता हूँ। ॥ २ ॥",
       english: "First of all, I bow to the feet of the Brahmins (the divine beings upon earth), who remove all doubts born of delusion. Then I offer my loving salutations, in graceful words, to the assembly of noble souls, who are the treasure-house of all virtues."
     },
+    
+    {
+        id: 21,
+        type: "chaupai",
+        text: ["साधु चरित सुभ चरित कपासू | निरस बिसद गुनमय फल जासू ||",
+          "जो सहि दुख परछिद्र दुरावा | बंदनीय जेहि जग जस पावा || ३ ||"
+         ],
+         transliteration: [
+    "Sādhu charit subh charit kapāsū । Niras bisad gunamay phal jāsū ॥",
+    "Jo sahi dukh parachhidra durāvā । Bandanīya jehi jag jas pāvā ॥ 3 ॥"
+  ],
 
+        arth: "संतों का चरित्र कपास (रुई) के समान शुभ होता है। कपास स्वयं रसहीन, शुद्ध और गुणों से युक्त फल वाला होता है। वह स्वयं दुःख सहकर दूसरों के दोषों को ढक लेता है। इसी कारण संसार में वह वंदनीय (पूजनीय) होकर यश प्राप्त करता है। || ३ ||",
+        english: "The character of saints is noble, like cotton.Cotton itself is plain, pure, and full of useful qualities.It endures suffering itself while covering the faults of others.Therefore, it earns honor and reverence throughout the world."
+      },
+
+      {
+        id: 22,
+        type: "chaupai",
+        text: ["मुद मंगलमय संत समाजू | जो जग जंगम तीरथराजू || ",
+          "राम भक्ति जहँ सुरसरि धारा | सरसइ ब्रह्म बिचार प्रचारा || ४ || "
+         ],
+         transliteration: [
+    "Mud maṅgalamay santa samājū । Jo jag jaṅgam tīratharājū ॥",
+    "Rāma bhakti jahaṁ surasari dhārā । Sarasai brahma bichāra pracārā ॥ 4 ॥"
+  ],
+    arth: "संतों का समाज आनंद और मंगल से भरपूर होता है।वह इस संसार में चलते-फिरते तीर्थराज (प्रयाग) के समान है। जहाँ रामभक्ति गंगाजी की धारा के समान बहती है,और ब्रह्म-विचार की चर्चा सरस्वती नदी के समान प्रवाहित होती रहती है।",
+        english: "The assembly of saints is filled with joy and auspiciousness.It is like the king of holy pilgrimages moving upon the earth.There, devotion to Lord Rama flows like the sacred river Ganga,and discussions of divine wisdom flow like the river Saraswati."
+      },
     ]
   },
 
